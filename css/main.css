@@ -1,21 +1,38 @@
-body{
-	margin:0;
-	height:100vh;
-}
-
-canvas{
-	display:block;
-	}
-	
-h1{
-		position:absolute;
-		top:2em;
-		left:2em;
-		font-family:'Montserrat';
-		font-size:auto;
-		text-transform:uppercase;
-		width:auto;
-		line-height: .8em;
-		border:5px solid #000;
-		padding:.2em;
-}
+ body{margin:0;font-family:calibri;font-size:14.5;font-style:bold;}
+      h1{background:#d6d8d8; color:#fff;font-family:Harlow solid italic; padding:4.5%; opacity:80%;font-size:47;}
+     
+      .gil1{display:inline-block; margin-left:-3;color:#000; padding:.3%; margin-top:-10px;
+            display:flex; position:sticky;letter-spacing:1%;font-size:10px;}
+      .gil1>.gil2{border-radius:5em;word-spacing:.5em;}
+  
+      
+      .gil1>.gil2>a:hover{color:#4b4e4f;text-decoration:none;background:#670b0b; padding:1; border-radius:3px;}
+      a:visited{color:#fff;text-decoration:none; letter-spacing:.4%;}
+      a:link{color:; text-decoration:none;}
+      
+      #span1{font-size:12; color:#000;}
+      
+      #divright{float:right; margin-right:10;
+                padding:1%; background:#d6d8d8; color:#fff;opacity:60%;}
+      .divcenter{background:#fff;color:#4b4e4f;margin-left:-5; margin-right:-5;max-width:100% auto;border:.5em #d6d6d6 thin;margin-top:-20;
+                 ;padding:1em;}
+       .divcenter>.gilp1{width:auto;border:auto; padding:4%; margin-left:10;margin-right:10; font-family:calibri;font-size:15; letter-spacing:.3em;
+         word-spacing:.2em;} 
+      #gilflex1{display:inline-block;display:flex;flex-flow:column wrap; align-text:center" margin:auto; width:100%; 
+        background:linear-gradient(to bottom, #dbe4f6, #dbe4f6, #dbe4f6,#e1e8f6,#fff); padding:1%;}
+      .gilflex2{color:#4b4e4f; flex:1 100%;margin:;width:100%;height:100%; border:auto; padding:4%; margin-left:5;margin-right:5; font-family:calibri;font-size:15; letter-spacing:.3em; word-spacing:.2em;}
+      .gilflex2>a:hover{color:#fff;text-decoration:none;background:none; padding:1; border-radius:3px;}
+                 a:visited{color:#fff;text-decoration:none; letter-spacing:.4%;}
+                 a:link{color:#fff; text-decoration:none;}
+      #footergil{display:flex;background:linear-gradient(to bottom, #183e8a, #183e8a, #173675,#173675,#173675);position:sticky;
+        color:#fff; margin-right:-5;margin-left:-5;padding:1%;width:auto; padding:3%; font-family:calibri; letter-spacing:.3em; word-spacing:2em;
+        align-item:center;}
+      .gilfooter2{ pading:1%;letter-spacing:.3; word-spacing:.3; font-size:11; margin:auto;}
+      .gilp2{max-width:100%; border:auto; padding:4%; margin-left:5;margin-right:10; font-family:calibri;font-size:15; letter-spacing:.3em;
+        word-spacing:.2em;}
+       #gilflex1-2{display:inline-block;display:flex;flex-flow:row wrap; margin:auto; width:100%; background:linear-gradient(to bottom,#fff, #fff, #fff,#fff,#fff); padding:1%;}
+      .dropdown{background:white; color:#000;}
+.dropdown-item{background:#234b9b;}
+.gilh1{letter-spacing:.8em; font-size:42; font-family:calibri;
+  background:linear-gradient(to bottom,#16274a, #16274a, #16274a, #ffffff);padding:3%;margin-top:10;margin-left:-10;margin-right:-10;height:100% auto;}
+        .logo{width:150px;height:150px;}
